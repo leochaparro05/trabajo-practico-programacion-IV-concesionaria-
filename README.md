@@ -5,20 +5,17 @@
 **Materia:** Programación IV  
 **Universidad:** Universidad Tecnológica Nacional  
 **Trabajo Práctico:** API REST para Gestión de Ventas de Autos  
-**Fecha de Entrega:** Noviembre 2025
+**Fecha de Entrega:** 20 Noviembre 2025
 
 ---
 
 ## Datos del Estudiante
 
-**Estudiante:** [Tu Nombre Completo]  
-**Legajo:** [Tu Legajo]  
-**Carrera:** [Tu Carrera]  
-**Comisión:** [Tu Comisión]
+**Estudiante:** Leo Chaparro
+**Legajo:** 17451 
+**Carrera:** Tecnicatura univeritaria en programacion 
 
 ---
-
-## Resumen Ejecutivo
 
 Este trabajo práctico implementa una API REST completa para la gestión de ventas de autos utilizando **FastAPI**, **SQLModel** y **PostgreSQL**. El sistema permite administrar un inventario de autos y registrar las ventas realizadas, implementando todas las operaciones CRUD y aplicando patrones de diseño profesionales.
 
@@ -29,34 +26,6 @@ El proyecto cumple con todos los requisitos especificados en el documento del tr
 - Relaciones uno-a-muchos entre entidades
 - Endpoints adicionales para búsquedas y consultas relacionadas
 - Documentación automática de la API
-
----
-
-## Objetivos Cumplidos
-
-### Funcionalidad (40 puntos)
-- ✅ Todos los endpoints funcionan correctamente
-- ✅ Operaciones CRUD completas para ambas entidades (Auto y Venta)
-- ✅ Validaciones de datos implementadas según especificaciones
-- ✅ Relaciones entre entidades funcionando correctamente
-
-### Arquitectura y Patrones (25 puntos)
-- ✅ Implementación correcta del patrón Repository
-- ✅ Separación adecuada de responsabilidades
-- ✅ Uso correcto de dependency injection con FastAPI
-- ✅ Estructura de archivos organizada según especificaciones
-
-### Calidad del Código (20 puntos)
-- ✅ Código limpio y bien documentado
-- ✅ Manejo apropiado de errores HTTP (400, 404, 422)
-- ✅ Tipado correcto con Python typing
-- ✅ Convenciones de nomenclatura consistentes
-
-### Base de Datos (15 puntos)
-- ✅ Configuración correcta de PostgreSQL
-- ✅ Creación automática de tablas mediante SQLModel
-- ✅ Relaciones de base de datos implementadas (clave foránea)
-- ✅ Conexión y configuración funcionando correctamente
 
 ---
 
@@ -524,20 +493,6 @@ curl -X POST "http://localhost:8000/ventas" \
 
 ---
 
-## Conclusiones
-
-Este trabajo práctico cumple con todos los requisitos especificados en el documento del TP:
-
-1. ✅ **Funcionalidad Completa**: Todos los endpoints CRUD implementados y funcionando
-2. ✅ **Arquitectura Profesional**: Patrón Repository y separación de responsabilidades
-3. ✅ **Calidad de Código**: Código limpio, documentado y con tipado correcto
-4. ✅ **Base de Datos**: Configuración correcta de PostgreSQL con relaciones implementadas
-5. ✅ **Características Adicionales**: Paginación, búsquedas, filtros y validaciones robustas
-
-El sistema está listo para ser utilizado y puede ser extendido fácilmente con nuevas funcionalidades gracias a su arquitectura bien diseñada.
-
----
-
 ## Referencias
 
 - [Documentación oficial de FastAPI](https://fastapi.tiangolo.com/)
@@ -545,14 +500,3 @@ El sistema está listo para ser utilizado y puede ser extendido fácilmente con 
 - [Documentación oficial de PostgreSQL](https://www.postgresql.org/docs/)
 - [Documentación de Pydantic](https://docs.pydantic.dev/)
 
----
-
-## Información de Contacto
-
-Para consultas sobre este trabajo práctico, contactar al estudiante mediante los canales oficiales de la universidad.
-
----
-
-**Fecha de entrega:** Noviembre 2025  
-**Versión:** 1.0.0  
-**Estado:** ✅ Completo y funcional
